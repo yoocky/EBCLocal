@@ -280,7 +280,7 @@ const MyControlLink = frappe.ui.form.ControlLink.extend({
 				? __('empty')
 				: filter[3];
 
-			return [__(label).bold(), __(filter[2]), (Array.isArray(filter[3]) ? String(value.map(v => __(v))) : __(value)).bold()].join(' ');
+			return [__(label).bold(), __(filter[2]), (Array.isArray(filter[3]) ? String(value.map(v => __(v))) : String(__(value))).bold()].join(' ');
 		}
 
 		let filter_string = filter_array
