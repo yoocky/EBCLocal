@@ -230,6 +230,66 @@ const MyControlLink = frappe.ui.form.ControlLink.extend({
 			}
 		});
 	},
+
+	get_filter_description(filters) {
+		let doctype = this.get_options();
+		let filter_array = [];
+		let meta = null;
+
+		frappe.model.with_doctype(doctype, () => {
+			meta = frappe.get_meta(doctype);
+		});
+
+		// convert object style to array
+		if (!Array.isArray(filters)) {
+			for (let fieldname in filters) {
+				let value = filters[fieldname];
+				if (!Array.isArray(value)) {
+					value = ['=', value];
+				}
+				filter_array.push([fieldname, ...value]); // fieldname, operator, value
+			}
+		} else {
+			filter_array = filters;
+		}
+
+		// add doctype if missing
+		filter_array = filter_array.map(filter => {
+			if (filter.length === 3) {
+				return [doctype, ...filter]; // doctype, fieldname, operator, value
+			}
+			return filter;
+		});
+
+		function get_filter_description(filter) {
+			let doctype = filter[0];
+			let fieldname = filter[1];
+			let docfield = frappe.meta.get_docfield(doctype, fieldname);
+			let label = docfield ? docfield.label : frappe.model.unscrub(fieldname);
+
+			if (docfield && docfield.fieldtype === 'Check') {
+				filter[3] = filter[3] ? __('Yes'): __('No');
+			}
+
+			if (filter[3] && Array.isArray(filter[3]) && filter[3].length > 5) {
+				filter[3] = filter[3].slice(0, 5);
+				filter[3].push('...');
+			}
+
+			let value = filter[3] == null || filter[3] === ''
+				? __('empty')
+				: filter[3];
+
+			return [__(label).bold(), __(filter[2]), (Array.isArray(filter[3]) ? String(value.map(v => __(v))) : __(value)).bold()].join(' ');
+		}
+
+		let filter_string = filter_array
+			.map(get_filter_description)
+			.join(', ');
+
+		return __('Filters applied for {0}', [filter_string]);
+	},
+
     // 添加的方法
     set_formatted_input: function(value) {
 		var me = this
