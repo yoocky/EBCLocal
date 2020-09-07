@@ -640,107 +640,107 @@ DocType: Account,Stock Received But Not Billed,已收货未开票/在途物资
 ,Business Type,业务类型
 ,Business Defaults,业务默认值
 ,User App Relation,用户应用关系
-,Places,门户,
-,Administration,管理,
-,Domains,行业,
-,Modules,模块,
-,Address And Contacts,地址和联系方式,
-,Chart Of Accounts,会计科目表,
-,Leaderboard,排行榜,
-,Chart of Accounts Importer,会计科目导入,
-,In Qty,入库数量,
-,Out Qty,出库数量,
-,In Value,入库成本,
-,Out Value,出库成本,
-,Balance Value,库存金额,
-,Balance Qty,库存数量,
-,Average,平均值,
-,Sum,合计,
-,Month,月,
-,Week,周,
-,Day,天,
-,Half Day,半天,
-,Quarter Day,季日,
-,Name,单号,
-,Writeoff,核销,
-,Get Outstanding Invoice,获取未付发票,
-,Get Outstanding Documents,获取发票,
-,Party Bank Account,对方账户,
-,Mode of Payment,结算方式,
-,Entry Type,单据类型,
-,Bill of Materials,BOM清单,
-,"If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term",如果选中此复选框，则将根据每个付款期限的付款时间表中的金额来拆分和分配付款金额,
-,Allocate Payment Based On Payment Terms,根据付款条件分配付款,
-,Select Doctype,选择文档类型,
-,Insert New Records,插入新记录,
-,Distribution,分销,
-,Retail,零售,
-,Hospitality,款待,
-,Services,服务,
-,Error Report,错误报告,
-,Go to Notification Settings List,转到通知设置列表,
-,Document Share,文件共享,
-,Assignments,分配,
-,Enable Email Notifications,启用电子邮件通知,
-,Subscribed Documents,订阅文件,
-,Stock Entry Type,业务类型,
-,Search Term,关键字,
-,{0} not found for item {1},"没有找到物料:{1},相应的成本价",
-,Trigger Primary Action,触发主要动作,
-,Series,编号,
-,Valid Upto,有效期结束时间,
-,Valid From,有效期开始时间,
-,Partially ordered,部分订购,
-,Select a Supplier from the Default Supplier List of the items below.,从以下默认供应商中选择,
-,For Default Supplier (Optional),默认供应商(可选),
-,Enter Supplier,选择供应商,
-,Tax Id,税号,
-,Accounts Payable Summary,应付帐款汇总,
-,Type a message,请输入对话内容...,
-,Direct Chat,私聊,
-,Group,组,
-,Valuation Rate not found for item {0},找不到物料{0}的评估价,
-,Save,保存,
-,Email IDs,邮箱,
-,Invoice,发票,
-,Receipt,入库,
-,Stock Entry has been already created against this Pick List,已经根据此拣货清单创建了库存移动,
-,Create Pick List,创建拣货清单,
-,Pick List,拣货清单,
-,Backflush Raw Materials From Work-in-Progress Warehouse,在制品仓库中反冲原料,
-,Download Required Materials,下载所需资料,
-,Total Qty,总数量,
-,Update Current Stock,更新当前库存,
-,Get Items From,从。。。获取物料,
-,Quality Inspection Required,需要质量检查,
-,Rate,单价,
-,Net Amount,不含税金额,
-,Net Rate,不含税单价,
-,Get current stock,获取当前库存,
-,No,否,
-,Minimum quantity should be as per Stock UOM,最小数量应按照库存单位,
-,Deleting Item,批量删除物料中...,
-,Barcode,条码,
-,Clear Filters,清除筛选,
-,Allow Purchase Invoice Creation Without Purchase Receipt,允许在没有收货的情况下创建采购发票,
-,Allow Purchase Invoice Creation Without Purchase Order,允许创建没有采购订单的采购发票,
-,Remove,清除,
-,Posting Date,提交日,
-,Group By Customer,按客户分组,
-,User Id,用户ID,
-,Allow Sales Invoice Creation Without Delivery Note,允许在没有交货单的情况下创建销售发票,
-,Allow Sales Invoice Creation Without Sales Order,允许创建无销售订单的销售发票,
-,Is Default Account,默认帐户,
-,Chat of Cost Centers,成本中心,
-,New Company,新公司,
-,Cash Flow Statement,现金流量表,
-,Financial Statements,财务报表,
-,Open Documents,打开文件,
-,No Events Today,无今日活动,
-,Today's Events,今日活动,
-,Mark all as Read,全部标记为已读,
-,Income Tax Slab,所得税模板,
-,Stock and Account Value Comparison,存货和科目价值对比,
-,Supplier Addresses And Contacts,供应商地址和联系方式,
-,Share Ledger,共享分类账,
-,View Ledger,查看分类账,
+,Places,门户
+,Administration,管理
+,Domains,行业
+,Modules,模块
+,Address And Contacts,地址和联系方式
+,Chart Of Accounts,会计科目表
+,Leaderboard,排行榜
+,Chart of Accounts Importer,会计科目导入
+,In Qty,入库数量
+,Out Qty,出库数量
+,In Value,入库成本
+,Out Value,出库成本
+,Balance Value,库存金额
+,Balance Qty,库存数量
+,Average,平均值
+,Sum,合计
+,Month,月
+,Week,周
+,Day,天
+,Half Day,半天
+,Quarter Day,季日
+,Name,单号
+,Writeoff,核销
+,Get Outstanding Invoice,获取未付发票
+,Get Outstanding Documents,获取发票
+,Party Bank Account,对方账户
+,Mode of Payment,结算方式
+,Entry Type,单据类型
+,Bill of Materials,BOM清单
+,"If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term",如果选中此复选框，则将根据每个付款期限的付款时间表中的金额来拆分和分配付款金额
+,Allocate Payment Based On Payment Terms,根据付款条件分配付款
+,Select Doctype,选择文档类型
+,Insert New Records,插入新记录
+,Distribution,分销
+,Retail,零售
+,Hospitality,款待
+,Services,服务
+,Error Report,错误报告
+,Go to Notification Settings List,转到通知设置列表
+,Document Share,文件共享
+,Assignments,分配
+,Enable Email Notifications,启用电子邮件通知
+,Subscribed Documents,订阅文件
+,Stock Entry Type,业务类型
+,Search Term,关键字
+,{0} not found for item {1},"没有找到物料:{1},相应的成本价"
+,Trigger Primary Action,触发主要动作
+,Series,编号
+,Valid Upto,有效期结束时间
+,Valid From,有效期开始时间
+,Partially ordered,部分订购
+,Select a Supplier from the Default Supplier List of the items below.,从以下默认供应商中选择
+,For Default Supplier (Optional),默认供应商(可选)
+,Enter Supplier,选择供应商
+,Tax Id,税号
+,Accounts Payable Summary,应付帐款汇总
+,Type a message,请输入对话内容...
+,Direct Chat,私聊
+,Group,组
+,Valuation Rate not found for item {0},找不到物料{0}的评估价
+,Save,保存
+,Email IDs,邮箱
+,Invoice,发票
+,Receipt,入库
+,Stock Entry has been already created against this Pick List,已经根据此拣货清单创建了库存移动
+,Create Pick List,创建拣货清单
+,Pick List,拣货清单
+,Backflush Raw Materials From Work-in-Progress Warehouse,在制品仓库中反冲原料
+,Download Required Materials,下载所需资料
+,Total Qty,总数量
+,Update Current Stock,更新当前库存
+,Get Items From,从。。。获取物料
+,Quality Inspection Required,需要质量检查
+,Rate,单价
+,Net Amount,不含税金额
+,Net Rate,不含税单价
+,Get current stock,获取当前库存
+,No,否
+,Minimum quantity should be as per Stock UOM,最小数量应按照库存单位
+,Deleting Item,批量删除物料中...
+,Barcode,条码
+,Clear Filters,清除筛选
+,Allow Purchase Invoice Creation Without Purchase Receipt,允许在没有收货的情况下创建采购发票
+,Allow Purchase Invoice Creation Without Purchase Order,允许创建没有采购订单的采购发票
+,Remove,清除
+,Posting Date,提交日
+,Group By Customer,按客户分组
+,User Id,用户ID
+,Allow Sales Invoice Creation Without Delivery Note,允许在没有交货单的情况下创建销售发票
+,Allow Sales Invoice Creation Without Sales Order,允许创建无销售订单的销售发票
+,Is Default Account,默认帐户
+,Chat of Cost Centers,成本中心
+,New Company,新公司
+,Cash Flow Statement,现金流量表
+,Financial Statements,财务报表
+,Open Documents,打开文件
+,No Events Today,无今日活动
+,Today's Events,今日活动
+,Mark all as Read,全部标记为已读
+,Income Tax Slab,所得税模板
+,Stock and Account Value Comparison,存货和科目价值对比
+,Supplier Addresses And Contacts,供应商地址和联系方式
+,Share Ledger,共享分类账
+,View Ledger,查看分类账
