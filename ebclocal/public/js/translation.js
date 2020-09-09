@@ -86,5 +86,13 @@ __("is"),
 __("Views"),
 __("Search"),
 __("Now"),
+__("Chart Of Accounts"),
+__("View Ledger"),
+__("Financial Statements"),
+__("Cash Flow Statement"),
+__("New Company"),
+__("Budget List"),
+__("Docstatus"),
+__("Customization"),
 
 ]
