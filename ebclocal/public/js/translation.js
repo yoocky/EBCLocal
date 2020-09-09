@@ -140,5 +140,10 @@ __("Total Outgoing Bills"),
 __("Total Incoming Bills"),
 __("Total Incoming Payment"),
 __("Total Outgoing Payment"),
+__("Monthly Total Work Orders"),
+__("Monthly Completed Work Orders"),
+__("Ongoing Job Cards"),
+__("Monthly Quality Inspections"),
+__("Heatmap"),
 
 ]
