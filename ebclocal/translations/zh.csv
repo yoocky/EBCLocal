@@ -745,3 +745,5 @@ DocType: Account,Stock Received But Not Billed,已收货未开票/在途物资
 ,Share Ledger,共享分类账
 ,View Ledger,查看分类账
 ,Budget List,预算清单
+,Docstatus,文档状态
+,Overdue Days,逾期天数
