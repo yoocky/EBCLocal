@@ -1,7 +1,7 @@
 ## EBCLocal
 
 解决frappe，erpnext的中国本地化问题，欢迎大家发现，提交问题。  
-ERPNext本地化解决方案交流QQ:694535174
+ERPNext本地化解决方案交流QQ群:694535174
 
 #### 使用方法
 1、进入 `bench` 工作台目录；  
