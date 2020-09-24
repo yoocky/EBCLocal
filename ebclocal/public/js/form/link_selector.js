@@ -1,3 +1,4 @@
+// 链接类型选择时高级搜索页面里面的翻译
 const MyLinkSelector = frappe.ui.form.LinkSelector.extend({
     search: function () {
 		var args = {

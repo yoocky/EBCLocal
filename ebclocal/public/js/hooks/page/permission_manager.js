@@ -1,4 +1,4 @@
-
+// 角色权限管理选择框改成可输入查找类型
 const MyPermissionEngine = frappe.PermissionEngine.extend({
     setup_page: function() {
 		var me = this;

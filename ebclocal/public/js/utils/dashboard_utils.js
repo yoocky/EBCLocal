@@ -1,3 +1,4 @@
+// 图表仪表盘过滤翻译
 frappe.dashboard_utils.render_chart_filters = function(filters, button_class, container, append) {
     filters.forEach(filter => {
         let chart_filter_html =
