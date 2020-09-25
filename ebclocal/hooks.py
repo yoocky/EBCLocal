@@ -30,6 +30,7 @@ app_include_js = "assets/js/ebclocal.min.js"
 # page_js = {"page" : "public/js/file.js"}
 page_js = {
 	"permission-manager": "public/js/hooks/page/permission_manager.js",
+	"print-format-builder": "public/js/hooks/page/print_format_builder.js",
 }
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
