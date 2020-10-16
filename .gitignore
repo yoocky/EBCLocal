@@ -4,3 +4,14 @@
 *.swp
 tags
 ebclocal/docs/current
+*.py~
+conf.py
+locale
+latest_updates.json
+.wnf-lang-status
+dist/
+*.swo
+__pycache__
+*~
+.vscode/
+node_modules/
