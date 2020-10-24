@@ -1,8 +1,8 @@
 let MyGanttView = class MyGanttView extends frappe.views.GanttView {
     get required_libs() {
 		return [
-			"assets/ebc/js/lib/gantt/frappe-gantt.css",
-			"assets/ebc/js/lib/gantt/frappe-gantt.min.js"
+			"assets/ebclocal/js/lib/gantt/frappe-gantt.css",
+			"assets/ebclocal/js/lib/gantt/frappe-gantt.min.js"
 		];
 	}
 }
