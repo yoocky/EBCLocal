@@ -747,3 +747,6 @@ DocType: Account,Stock Received But Not Billed,已收货未开票/在途物资
 ,Budget List,预算清单
 ,Docstatus,文档状态
 ,Overdue Days,逾期天数
+,Translator,翻译
+,Script Manager,脚本管理员
+,dashboard,仪表板

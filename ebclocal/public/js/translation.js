@@ -94,5 +94,10 @@ __("New Company"),
 __("Budget List"),
 __("Docstatus"),
 __("Customization"),
+__("Users and Permissions"),
+__("Leaderboard"),
+__("Getting Started"),
+__("dashboard"),
+__("Marketplace"),
 
 ]
