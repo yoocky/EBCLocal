@@ -6,6 +6,7 @@
 		"public/js/form/controls/link.js",
 		"public/js/form/controls/date_range.js",
 		"public/js/form/controls/dynamic_link.js",
+		"public/js/form/editor.js",
 		"public/js/form/formatters.js",
 		"public/js/form/link_selector.js",
 		"public/js/lib/datatable/datatable.js",

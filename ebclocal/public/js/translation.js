@@ -145,5 +145,10 @@ __("Monthly Completed Work Orders"),
 __("Ongoing Job Cards"),
 __("Monthly Quality Inspections"),
 __("Heatmap"),
+__("Users and Permissions"),
+__("Leaderboard"),
+__("Getting Started"),
+__("dashboard"),
+__("Marketplace"),
 
 ]
