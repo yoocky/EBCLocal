@@ -3,6 +3,10 @@
 解决frappe，erpnext的中国本地化问题，欢迎大家发现，提交问题。  
 ERPNext本地化解决方案交流QQ群:694535174
 
+新增13版分支： bench get-app --branch version-13 ebclocal https://gitee.com/petel_zhang/EBCLocal.git；
+
+由于本项目名称大写的原因，在docker中安装会失败，建议fork本项目然后修改仓库名称和仓库路径后缀为全小写，即：ebclocal
+
 #### 使用方法
 1、进入 `bench` 工作台目录；  
 2、获取对应版本APP ` bench get-app --branch version-12 https://gitee.com/petel_zhang/EBCLocal.git`  
