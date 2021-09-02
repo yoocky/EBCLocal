@@ -2,6 +2,9 @@
 
 解决frappe，erpnext的中国本地化问题，欢迎大家发现，提交问题。
 
+新增13版分支：
+` bench get-app --branch version-13 ebclocal https://gitee.com/petel_zhang/EBCLocal.git`；  
+
 #### 使用方法
 1、进入 `bench` 工作台目录；  
 2、获取APP ` bench get-app ebclocal https://gitee.com/petel_zhang/EBCLocal.git`；  
