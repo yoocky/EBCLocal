@@ -1,6 +1,6 @@
 // 用户界面查看角色的权限弹框翻译
-const MyRoleEditor = frappe.RoleEditor.extend({
-    show_permissions: function(role) {
+frappe.RoleEditor = class MyRoleEditor extends frappe.RoleEditor{
+	show_permissions() {
 		// show permissions for a role
 		var me = this;
 		if(!this.perm_dialog)
@@ -59,8 +59,5 @@ const MyRoleEditor = frappe.RoleEditor.extend({
 				me.perm_dialog.show();
 			}
 		});
-
-	},
-})
-
-frappe.RoleEditor = MyRoleEditor
+    }
+}
