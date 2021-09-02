@@ -5,6 +5,10 @@
 新增13版分支：
 ` bench get-app --branch version-13 ebclocal https://gitee.com/petel_zhang/EBCLocal.git`；  
 
+项目中的zh.csv借用了余则霖的中英对照，项目地址：https://gitee.com/yuzelin/ebclocal ， 在此特别感谢。
+
+由于本项目名称大写的原因，在docker中安装会失败，建议fork本项目然后修改项目名为全小写，即：ebclocal
+
 #### 使用方法
 1、进入 `bench` 工作台目录；  
 2、获取APP ` bench get-app ebclocal https://gitee.com/petel_zhang/EBCLocal.git`；  
