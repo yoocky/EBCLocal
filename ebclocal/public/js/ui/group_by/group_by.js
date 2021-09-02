@@ -1,7 +1,7 @@
 
 frappe.provide('frappe.views');
 
-var MyGroupBy = class MyGroupBy extends frappe.ui.GroupBy {
+frappe.ui.GroupBy = class MyGroupBy extends frappe.ui.GroupBy {
 	show_hide_aggregate_on() {
 		let fn = this.aggregate_function_select.val();
 		if (fn === 'sum' || fn === 'avg') {
@@ -54,5 +54,3 @@ var MyGroupBy = class MyGroupBy extends frappe.ui.GroupBy {
 		return docfield;
 	}
 }
-
-frappe.ui.GroupBy = MyGroupBy
