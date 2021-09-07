@@ -2,55 +2,39 @@
 frappe.provide('frappe.views');
 
 frappe.ui.GroupBy = class MyGroupBy extends frappe.ui.GroupBy {
-	show_hide_aggregate_on() {
-		let fn = this.aggregate_function_select.val();
-		if (fn === 'sum' || fn === 'avg') {
-			if (!this.aggregate_on_html.length) {
-				this.aggregate_on_html = `<option value="" disabled selected>
-					${__("Select Field...")}</option>`;
-
-				for (let doctype in this.all_fields) {
-					const doctype_fields = this.all_fields[doctype];
-					doctype_fields.forEach(field => {
-						// pick numeric fields for sum / avg
-						if (frappe.model.is_numeric_field(field.fieldtype)) {
-							let option_text = doctype == this.doctype
-								? __(field.label)
-								: `${__(field.label)} (${__(doctype)})`;
-							this.aggregate_on_html+= `<option data-doctype="${doctype}"
-								value="${field.fieldname}">${option_text}</option>`;
-						}
-					});
-				}
-			}
-			this.aggregate_on_select.html(this.aggregate_on_html);
-			this.aggregate_on_select.show();
-		} else {
-			// count, so no aggregate function
-			this.aggregate_on_select.hide();
-		}
-	}
 	get_group_by_docfield() {
 		// called from build_column
-		let docfield;
+		let docfield = {};
 		if (this.aggregate_function === 'count') {
 			docfield = {
 				fieldtype: 'Int',
 				label: __('Count'),
 				parent: this.doctype,
-				width: 120
+				width: 200,
 			};
 		} else {
 			// get properties of "aggregate_on", for example Net Total
-			docfield = Object.assign({}, frappe.meta.docfield_map[this.aggregate_on_doctype][this.aggregate_on]);
+			docfield = Object.assign(
+				{},
+				frappe.meta.docfield_map[this.aggregate_on_doctype][
+					this.aggregate_on_field
+				]
+			);
+            let label = __(docfield.label);
 			if (this.aggregate_function === 'sum') {
-				docfield.label = "'" + __(docfield.label) + "' 的总和";
+				docfield.label = __('Sum of {0}', [label]);
 			} else {
-				docfield.label = "'" + __(docfield.label) + "' 的平均值";
+				docfield.label = __('Average of {0}', [label]);
 			}
 		}
-		docfield.fieldname = '_aggregate_column';
 
+		docfield.fieldname = '_aggregate_column';
 		return docfield;
+    }
+    
+    get_group_by_field_label() {
+		return __(this.group_by_fields[this.group_by_doctype].find(
+			field => field.fieldname == this.group_by_field
+		).label);
 	}
 }

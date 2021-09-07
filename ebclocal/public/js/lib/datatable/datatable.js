@@ -45,7 +45,7 @@ class MyDataTable extends DataTable {
 		// 这里是解决表格有垂直滚动条而表格宽度又小于table的宽度时，垂直滚动条遮盖数据
 		// 及高度小于table的高度时，最后一条线画不出来
 		this.style = new Style1(this);
-    }
+	}
 }
 
 // 是否把这个导出去

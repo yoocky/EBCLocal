@@ -18,5 +18,5 @@ frappe.PermissionEngine = class MyPermissionEngine extends frappe.PermissionEngi
 			return frappe.set_route('List', 'User Permission');
 		});
 		this.set_from_route();
-    }
+	}
 }

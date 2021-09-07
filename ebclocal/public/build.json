@@ -12,8 +12,6 @@
 		"public/js/lib/datatable/datatable.js",
 		"public/js/lib/gantt/gantt.js",
 		"public/js/lib/charts/charts.js",
-		"public/js/ui/group_by/group_by.html",
-		"public/js/ui/group_by/group_by.js",
-		"public/js/utils/dashboard_utils.js"
+		"public/js/ui/group_by/group_by.js"
 	]
 }

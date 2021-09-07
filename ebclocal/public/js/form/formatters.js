@@ -1,4 +1,6 @@
 
+frappe.provide("frappe.form.formatters");
+
 // 修改日期时间格式化， YYYY-MM-DD  HH:mm:ss
 frappe.form.formatters.Datetime = function(value) {
 	if(value) {
